@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategrey;
+}
+.wrapper {
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 40px 20px 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.score {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.slider {
+    width: 350px;
+    height: 18px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+}
+.ball {
+    width: 18px;
+    height: 18px;
+    background-color: darkcyan;
+    background: radial-gradient(darkcyan, darkslategray);
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+}
